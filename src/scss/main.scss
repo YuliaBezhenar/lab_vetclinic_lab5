@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Stonehenge";
+    src: url("fonts/Stonehenge.woff") format('woff');
+}
+@font-face {
+    font-family: "NAMU";
+    src: url("fonts/Stonehenge.woff") format('woff');
+}
+
+//Colors
+$black: #212723;
+$dark-green: #2e4638;
+$forest-green: #349b5d;
+$green: #00f060;
+$light-green: #ccffe1;
+$shade-forest-green: #38704f;
+$shade-green: #21c563;
+$white: #ffffff;
+//Fonts
+$h-1-font-family: "Stonehenge";
+$h-1-font-size: 96px;
+$h-2-font-family: "NAMU";
+$h-2-font-size: 36px;
+$p-font-family: "NAMU";
+$p-font-size: 24px;
+$font-weight: 400;
+
+$padding: 0 80px;
+
+
+html{
+    font-size: $p-font-size;
+    color: $black;
+    background-color: $white;
+}
+
+body{
+    padding: $padding;
+    margin: auto;
+    text-align: center;
+}
+
+header, main, footer{
+    border: 1px solid $dark-green;
+    height: 700px;
+    margin: 20px 0;
+}
+h1{
+    font-family: $h-1-font-family;
+    font-size: $h-1-font-size;
+    font-weight: $font-weight;
+}
+h2{
+    font-family: $h-2-font-family;
+    font-size: $h-2-font-size;
+    font-weight: $font-weight;
+}
+p{
+    font-family: $p-font-family;
+    font-size: $p-font-size;
+    font-weight: $font-weight;
+}
